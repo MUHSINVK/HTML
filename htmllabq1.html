@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>html lab question1</h1>
+
+<form action="/action_page.php">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="enter name" maxlength="25"  required><br><br>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" value="test@example.com"  autofocus="autofocus" required><br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd" minlength="6" required><br><br>
+  <!-- drop down -->
+  <label for="category">Category:</label>
+  <select required>
+    <option value="student">student</option>
+    <option value="employee">employee</option>
+    <option value="freelancer" selected>freelancer</option>
+  </select><br><br>
+
+
+  <label for="eventdate">Event date:</label>
+  <input type="date" id="eventdate" name="eventdate" required><br><br>
+
+
+  <input type="radio" id="ticket1" name="tickets" value="ticket 1" required>
+  <label for="tickets">1 Ticket</label><br>
+  <input type="radio" id="css" name="tickets" value="ticket 2" required checked>
+  <label for="tickets">2 Ticket</label><br>
+  <input type="radio" id="tickets" name="tickets" value="ticket 3" required>
+  <label for="tickets">3 Ticket</label><br><br>
+
+   
+  <label for="payment">Online Payment :</label>
+  <input type="checkbox" id="payment" name="payment" value="onlinepayment" required><br><br>
+
+
+  <label for="notes">Notes</label><br>
+  <textarea rows = "5" cols = "50" name = "description" placeholder="comments"></textarea>
+  
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
